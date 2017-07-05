@@ -9,6 +9,12 @@ app.use(formidable());
 
 app.listen(3000, function() {});
 
+app.get('/get-posts', function (req, res) {
+  fs.readFile(__dirname + '/data/posts.json', function (error, file) {
+    res.send(file);
+  });
+});
+
 app.post('/create-post', function (req, res){
     var newPost = req.fields;
 
