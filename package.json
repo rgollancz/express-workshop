@@ -1,0 +1,27 @@
+{
+  "name": "express-workshop",
+  "version": "1.0.0",
+  "description": "<img src=\"https://github.com/node-girls/workshop-cms/blob/master/readme-images/logo.png?raw=true\">",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgollancz/express-workshop.git"
+  },
+  "author": "Alison Benjamin & Rosie Gollancz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgollancz/express-workshop/issues"
+  },
+  "homepage": "https://github.com/rgollancz/express-workshop#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0"
+  }
+}
